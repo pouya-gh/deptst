@@ -1,9 +1,6 @@
-name: Check if script works
+name: Check if deployment works
 run-name: testing
-on:
-  issues:
-    types:
-      - opened
+on: [push]
 
 jobs:
   build:
