@@ -15,6 +15,5 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 22
         script: |
-                cd deptst
-                touch tst.txt
-                echo "$USER" >> tst.txt
+                cd deptst/deptst
+                python main.py
