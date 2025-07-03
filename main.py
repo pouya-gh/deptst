@@ -3,4 +3,4 @@ import getpass
 
 if __name__ == "__main__":
     with open("output.txt", "w") as f:
-        f.write(f"Hello, {getpass.getuser()}! (time {datetime.now()})")
+        f.write(f"Hello, {getpass.getuser()}! (time {datetime.now()})\n\r")

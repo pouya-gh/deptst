@@ -1,6 +1,9 @@
 name: Check if deployment works
 run-name: testing
-on: [push]
+on:
+  push:
+    tags:        
+      - '*'
 
 jobs:
   build:
