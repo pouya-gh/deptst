@@ -15,7 +15,7 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-    - name: Run Tests
+    - name: Run script and show output
     #   env:
     #     SECRET_KEY: ${{ secrets.SECRET_KEY }}
     #     POSTGRESQL_URL: ${{ secrets.POSTGRESQL_URL }}
