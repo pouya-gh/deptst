@@ -8,7 +8,7 @@ jobs:
 
     steps:
     - name: Copy changed files to server
-      uses: appleboy/scp-action@v1
+      uses: appleboy/ssh-action@v1
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
