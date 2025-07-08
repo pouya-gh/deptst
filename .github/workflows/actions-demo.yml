@@ -19,4 +19,4 @@ jobs:
       run: |
         python main.py
         cat output.txt
-        echo "${{ env.TST }}"
+        echo "${{ vars.TST }}"
